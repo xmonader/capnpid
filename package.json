@@ -1,7 +1,8 @@
 {
   "name": "capnpid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate capnp schema ID easily.",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/xmonader/capnpid"
@@ -9,6 +10,7 @@
   "author": "Ahmed T. Youssef",
   "license": "MIT",
   "scripts": {
+    "prepublish": "npm run build",
     "start": "npm run build && npm run watch",
     "build": "npm run build-ts && npm run tslint",
     "watch": "concurrently -k -p \"[{name}]\" -n \"Sass,TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run watch-sass\" \"npm run watch-ts\" \"npm run serve\"",
