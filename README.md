@@ -7,6 +7,6 @@ used to generate capnproto schema ID
 > cap.calcCapnpID()
 '10cf8f08d354c923'
 > cap.newCapnpID()
-'@111a996e56860321;'
+'@0x111a996e56860321;'
 ```
 

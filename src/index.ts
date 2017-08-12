@@ -12,5 +12,5 @@ export function calcCapnpID() {
     return crypto.randomBytes(8).toString("hex");
 }
 export function newCapnpID() {
-    return `@${calcCapnpID()};`;
+    return `@0x${calcCapnpID()};`;
 }
