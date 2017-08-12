@@ -35,6 +35,7 @@
     "big-integer": "*"
   },
   "devDependencies": {
+    "@types/node": "^8.0.20",
     "nodemon": "^1.11.0",
     "tslint": "^5.0.0",
     "typescript": "^2.4.0"
