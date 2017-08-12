@@ -1,6 +1,6 @@
 {
   "name": "capnpid",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Generate capnp schema ID easily.",
   "main": "dist/index.js",
   "repository": {
@@ -32,6 +32,7 @@
     "testEnvironment": "node"
   },
   "dependencies": {
+    "big-integer": "*"
   },
   "devDependencies": {
     "nodemon": "^1.11.0",
